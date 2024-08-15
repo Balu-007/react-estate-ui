@@ -6,20 +6,28 @@
     // background-color: rgb(227, 216, 238);
     margin: 0 auto;
     padding: 0 20px;
+    display: flex;
+    flex-direction: column;
 
     @include lg {
-        background-color: rgb(214, 184, 173);
+        // background-color: rgb(214, 184, 173);
         max-width: 1280px;
     }
 
     @include md {
-        background-color: rgb(173, 196, 238);
+        // background-color: rgb(173, 196, 238);
         max-width: 768px;
     }
 
     @include sm {
-        background-color: rgb(196, 143, 143);
+        // background-color: rgb(196, 143, 143);
         max-width: 640px;
+    }
+
+    .content{
+        // height: calc(100vh - 100px);
+        // background-color: rebeccapurple;
+        flex: 1;
     }
 
 }
